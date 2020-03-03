@@ -16,11 +16,11 @@ The original idea behind this work is described in the ASPLOS 2019 paper titled 
 
 This diagram shows the high-level architecture of CHASM. The Sentry cannot independently execute programs. Instead, to check program execution it relies on information sent by the processor and untrusted control components on the FPGA. Thus, the Sentry avoids much of the complexity of aggressive processor optimizations. The Sentry detects any erroneous or malicious behavior by untrusted components without trusting any information sent by the untrusted components. It does so using a combination of functional unit re-execution and a cryptographic memory integrity scheme.
 
-## How CHAMS stacks up against other FPGA-based processors (secure & non-secure)
+## Comparison with other FPGA-based processors
 
 ![CHASM Comparison](/images/comparison.png)
 
-This table compares the CHASM with state-of-the-art FPGA designs. CHASM yields the highest performance thanks to its stall-free design (all dependences resolved with the execution trace provided by the monitored untrusted systems), does not require any speculation (not susceptible to attacks related to observed speculative execution), and is the simplest in terms of lines of code.
+This table compares CHASM with state-of-the-art FPGA designs. CHASM yields the highest performance thanks to its stall-free design (all dependences resolved with the execution trace provided by the monitored untrusted systems), does not require any speculation (not susceptible to attacks related to observed speculative execution), and is the simplest in terms of lines of code.
 
 ## The RTL Source Code for the FPGA system
 
