@@ -1,0 +1,3 @@
+[submodule "trustguard/Multiported-RAM"]
+	path = trustguard/Multiported-RAM
+	url = https://github.com/AmeerAbdelhadi/Multiported-RAM.git
