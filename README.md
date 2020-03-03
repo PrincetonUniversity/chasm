@@ -27,4 +27,5 @@
 #### /trustguard/sentrycontrol: RTL source for the Sentry Control
 #### /trustguard/sentry: RTL source for the Sentry
 #### /trustguard/utils: Various Utility RTL sources
+#### /trustguard/uncore: shared uncore design RTL sources
 #### /trustguard/Multiported-RAM: Multiported memory implementation used by the CHASM architecture
